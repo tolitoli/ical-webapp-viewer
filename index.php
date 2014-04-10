@@ -165,7 +165,7 @@ session_start();
           $icalDate = str_replace('/', '', $icalDate); 
           $pattern  = '/([0-9]{2})';   // 1: MM
           $pattern .= '([0-9]{2})';    // 2: DD
-          $pattern .= '([0-9]{2})/';    // 3: YY
+          $pattern .= '([0-9]{4})/';    // 3: YYYY
           
           preg_match($pattern, $icalDate, $date); 
   
