@@ -1,7 +1,7 @@
 ical-webapp-viewer
 ==================
 
-Viewer für ical-Daten für Mobilegeräte
+Viewer für ical-Daten auch auf Mobilegeräten
 
 
 ![Screenshot](http://kalender.vwi.org/screenshoot.png)
