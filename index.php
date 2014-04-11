@@ -318,7 +318,7 @@ session_start();
                 }else{
                   $dist="";
                 }
-                echo "<a href='http://maps.google.de/maps?daddr=".str_replace("\\", "", $event['LOCATION'])."'><img src=\"images/icons-png/home-black.png\"> ".str_replace("\\", "", $event['LOCATION'])."</a>".$dist." ";
+                echo "<a href='http://maps.google.de/maps?daddr=".str_replace("\\", "", $event['LOCATION'])."' target='_blank'><img src=\"images/icons-png/home-black.png\"> ".str_replace("\\", "", $event['LOCATION'])."</a>".$dist." ";
                 echo "<br/><br/>";
                 
                 echo "<img src=\"images/icons-png/info-black.png\"> ".$del_slash."<br/>";
@@ -467,6 +467,10 @@ session_start();
               Tel: 01711553499   <br>
                 <br>
                 <br>
+                <h3>Feedback bitte bei Github abgeben</h3>
+                <ul>
+                  <li><a href="http://goo.gl/mVdRUj" target="_blank">ical-webapp-viewer</a></li> 
+                </ul>
            <h3>Credits</h3> 
            <ul>
             <li>Datenquelle: <a href="http://goo.gl/aF83u8" target="_blank">ICS des VWI Kalenders</a></li>  
